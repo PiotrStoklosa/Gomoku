@@ -1,0 +1,2 @@
+# Gomoku
+Project- gomoku game
