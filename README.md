@@ -1,3 +1,7 @@
+Hi!
+This is my first major project. There is the documantation for programers and for players below here, unfortunally only in polish right now (I am going to add english version soon). More info about Gomoku is here: https://en.wikipedia.org/wiki/Gomoku
+Good luck!
+
 Dokumentacja dla użytkownika programu
 
 1. Instrukcja gry:
