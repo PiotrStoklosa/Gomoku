@@ -1,3 +1,6 @@
+#ifndef _GOMOKU_H_
+#define _GOMOKU_H_
+
 extern GtkWidget *panel_gry;
 extern GtkWindow *okno;
 
@@ -24,8 +27,8 @@ extern GtkWidget *plansza10x10;
 extern GtkWidget *plansza15x15;
 extern GtkWidget *plansza19x19;
 
-char x[50][17];
-char y[50][17];
+extern char x[50][17];
+extern char y[50][17];
 
 extern int wx;
 extern int wy;
@@ -60,3 +63,5 @@ void klikniety_przycisk19x19(GtkWidget *widget, int *data);
 void wczytaj_gre(GtkWidget *widget, int *data);
 void zapisz_gre(GtkWidget *widget, int *data);
 void powrot_z_okna_wygranej(GtkWidget *widget, gpointer data);
+
+#endif
